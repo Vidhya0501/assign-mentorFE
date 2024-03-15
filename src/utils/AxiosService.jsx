@@ -1,7 +1,7 @@
 import axios from "axios";
 
 let AxiosService = axios.create({
-    baseURL:"https://assign-mentorbe.onrender.com/",
+    baseURL:"http://localhost:5000",
     headers:{
         "Content-Type":"application/json"
     }
