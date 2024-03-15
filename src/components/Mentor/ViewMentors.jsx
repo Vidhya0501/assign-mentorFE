@@ -34,7 +34,6 @@ function ViewMentors() {
               <th scope="col">Id</th>
               <th scope="col">Name</th>
               <th scope="col">Email</th>
-              <th scope="col">Assigned Students Id</th>
             </tr>
           </thead>
           <tbody>
@@ -43,7 +42,6 @@ function ViewMentors() {
                 <th scope="row">{i + 1}</th>
                 <td>{d.mentorName}</td>
                 <td>{d.mentorEmail}</td>
-                <td>{d.assignedStudents}</td>
               </tr>
             ))}
           </tbody>
